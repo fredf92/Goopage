@@ -1,0 +1,190 @@
+/* Google homepage */
+
+body{
+  width: 100%;
+  margin: 0px;
+  font-family: Arial;
+  font-size: 0.9em;
+}
+
+/* Header */
+
+header{
+  height: 100px;
+	margin: 20px;
+}
+
+nav{
+  display: flex;
+  justify-content: flex-end;
+	min-height: 120px;
+}
+
+/* Footer */
+
+footer{
+	display: flex;
+	flex-direction: row;
+	position: fixed;
+  height: 80px;
+  width: 100%;
+  background-color: #f2f2f2;
+  bottom: 0;
+  border-top: 1px solid #D2DCDB;
+	border-bottom: 1px solid #D2DCDB;
+}
+
+.position_gauche{
+	display: flex;
+	flex-direction: row;
+  justify-content: left;
+	align-items: left;
+  margin-left: 32px;
+  margin-top: 13px;
+}
+
+.position_droite{
+	display: flex;
+	flex-direction: row;
+  justify-content: right;
+	align-items: right;
+  margin-right: 32px;
+  margin-top: 13px;
+	
+}
+
+
+
+/* Liens */
+
+a{
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: grey;
+}
+
+header a{
+  margin-right: 10px;
+}
+
+footer a{
+  display: flex;
+	flex-direction: row;
+}
+
+/* Apparence bouton "connexion" */
+
+.connexion{
+  display: flex;
+	justify-content: center;
+	width: 93px;
+  height: 22px;
+  background-color: #4584ee;
+  color: #fff;
+  font-weight: normal;
+  border-radius: 2px;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding-top: 4px;
+  text-align: center;
+}
+
+/* Transitions images menu*/
+
+#bouton_menu{
+	position: relative;
+	height: 17px;
+	width: 17px;
+	display: inline-block;
+	margin-right: 20px;
+
+}
+
+.bouton_menu{
+  height: 17px;
+  width: 17px;
+
+}
+
+/* Partie centrale recherche */
+
+
+.barre_recherche a{
+  display: inline-block;
+  background-color: #f2f2f2;
+  text-align: center;
+  width: 150px;
+  height: 26px;
+  margin-top: 30px;
+  margin-left: 2px;
+  padding-top: 5px;
+}
+
+.barre_loupe{
+	width: 20px;
+	margin: 15px;
+	display: inline-block;
+	align: center;
+	margin-top: 30px;
+  margin-left: 2px;
+  padding-top: 11px;
+}
+
+.barre_micro{
+	width: 20px;
+	padding: 16px;
+	display: inline-block;
+}
+
+.boutons_recherche{
+  width: 310px;
+  margin: 3px auto;
+}
+
+.image_google{
+  width: 272px;
+  margin: 125px auto 0 auto;
+  font-weight: bold;
+}
+
+.barre_recherche{
+  width: 590px;
+  margin: 10px auto 0 auto;
+}
+
+.input{
+  display: block;
+  border-style: solid;
+  width: 590px;
+  height: 35px;
+  border: 2px solid  #f0f0f0;
+	border-radius: 20px;
+	
+}
+
+
+#gestes_barriere{
+ display: flex;
+ flex-direction: row;
+ position: center;
+ height: 45px;
+ width: 70px;
+ 
+}
+ 
+
+.gestes_barriere{
+	display: flex;
+	flex-direction: row;
+	height: 45px;
+  width: 450px;
+	margin: 20px auto 0 auto;
+  
+}
+}
+
